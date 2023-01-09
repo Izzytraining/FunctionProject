@@ -5,34 +5,34 @@ body {
   position: center;
   background-image: cover;
   background-repeat: no-repeat;
-  font-family: "Sorts Mill Goudy", serif;
+  font-family: "Bodoni Moda", serif;
   display: flex;
   text-align: center;
 }
 
 .appcontainer {
-  width: 800px;
-  height: 1500px;
+  width: 950px;
+  height: 1600px;
   margin: 25px auto;
-  background-color: white;
-  border-style: double;
+  background-color: #2f9395;
+  border-style: ridge;
   border-color: black;
   text-align: center;
   font: size 20px;
+  color: black;
   box-shadow: 10em;
   flex-direction: column;
   padding: 15px;
 }
 
 .apptitle {
-  font-family: "Sacramento", serif;
-  text-shadow: 10em;
-  font-size: 66px;
-  text-shadow: 10px;
+  text-shadow: black 50px;
+  font-size: 70px;
+  color: #a6206a;
 }
 
 span {
-  font-size: 22px;
+  font-size: 25px;
   font-style: normal;
   font-weight: bold;
   font-family: "Sorts Mill Goudy", serif;
@@ -42,7 +42,7 @@ span {
 #breakfastListContainer,
 #ceremonyListContainer,
 #supplierListContainer {
-  font-size: 24px;
+  font-size: 30px;
   font-style: oblique;
   flex-direction: column;
   justify-content: center;
@@ -54,5 +54,36 @@ span {
 #addbreakfast,
 #addreception {
   font-weight: bold;
+  font-size: 35px;
+  text-size-adjust: 50px;
+  color: purple;
+}
+
+h2 {
+  font-size: 32px;
+  color: black;
+}
+
+h4 {
   font-size: 25px;
+}
+
+.supplierlist,
+.ceremonylist,
+.breakfastlist,
+.receptionlist {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+input {
+  width: 300px;
+  font-size: 35px;
+  box-sizing: border-box;
+  border: #a6206a;
+}
+input[type="button"] {
+  width: 100px;
+  border-radius: 10em;
+  font-size: small;
 }
