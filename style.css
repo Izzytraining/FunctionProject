@@ -1,17 +1,20 @@
-html,
-body {
-  background-image: url("weddingimg.jpg");
-  background-size: 3800px;
-  position: center;
-  background-image: cover;
-  background-repeat: no-repeat;
-  font-family: "Bodoni Moda", serif;
-  display: flex;
-  text-align: center;
+@media screen {
+  html,
+  body {
+    background-image: url("weddingimg.jpg");
+    background-size: 3800px;
+    position: center;
+    background-image: cover;
+    background-repeat: no-repeat;
+    font-family: "Bodoni Moda", serif;
+    display: -ms-flexbox;
+    text-align: center;
+  }
 }
+
 @media screen {
   .appcontainer {
-    display: flexbox;
+    display: flex;
     width: 950px;
     height: 2000px;
     margin: 25px auto;
