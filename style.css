@@ -1,94 +1,100 @@
-@media screen {
-  html,
-  body {
-    background-image: url("weddingimg.jpg");
-    background-size: 3800px;
-    position: center;
-    background-image: cover;
-    background-repeat: no-repeat;
-    font-family: "Bodoni Moda", serif;
-    display: -ms-flexbox;
-    text-align: center;
-  }
+/*@media only screen and (min-width: 768px; max-width: 2500px) {*/
+
+html,
+body {
+  background-image: url("weddingimg.jpg");
+  background-size: 3800px;
+  position: center;
+  background-image: cover;
+  background-repeat: no-repeat;
+  font-family: "Bodoni Moda", serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-@media screen {
-  .appcontainer {
-    display: flex;
-    width: 950px;
-    height: 2000px;
-    margin: 25px auto;
-    background-color: #2f9395;
-    border-style: ridge;
-    border-color: black;
-    text-align: center;
-    font: size 20px;
-    color: black;
-    box-shadow: 10em;
-    flex-direction: column;
-    padding: 15px;
-  }
+.appcontainer {
+  display: -ms-flexbox;
+  flex-direction: column;
+  width: 950px;
+  height: 2000px;
+  margin: 25px auto;
+  background-color: #2f9395;
+  border-style: ridge;
+  border-color: black;
+  text-align: center;
+  font: size 20px;
+  color: black;
+  box-shadow: 10em;
+  flex-direction: column;
+  padding: 15px;
+}
 
-  .apptitle {
-    text-shadow: black 50px;
-    font-size: 70px;
-    color: #a6206a;
-  }
+.apptitle {
+  text-shadow: black 50px;
+  font-size: 70px;
+  color: #a6206a;
+}
 
-  span {
-    font-size: 25px;
-    font-style: normal;
-    font-weight: bold;
-    font-family: "Sorts Mill Goudy", serif;
-  }
+span {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Sorts Mill Goudy", serif;
+}
 
-  #receptionListContainer,
-  #breakfastListContainer,
-  #ceremonyListContainer,
-  #supplierListContainer {
-    font-size: 30px;
-    font-style: oblique;
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
-  }
+#receptionListContainer,
+#breakfastListContainer,
+#ceremonyListContainer,
+#supplierListContainer {
+  font-size: 30px;
+  font-style: oblique;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
 
-  #addsupplier,
-  #addceremony,
-  #addbreakfast,
-  #addreception {
-    font-weight: bold;
-    font-size: 35px;
-    text-size-adjust: 50px;
-    color: purple;
-  }
+#addsupplier,
+#addceremony,
+#addbreakfast,
+#addreception {
+  font-weight: bold;
+  font-size: 35px;
+  text-size-adjust: 50px;
+  color: purple;
+}
 
-  h2 {
-    font-size: 32px;
-    color: black;
-  }
+h2 {
+  font-size: 32px;
+  color: black;
+}
 
-  h4 {
-    font-size: 25px;
-  }
+h4 {
+  font-size: 25px;
+}
 
-  .supplierlist,
-  .ceremonylist,
-  .breakfastlist,
-  .receptionlist {
-    font-size: 25px;
-    text-decoration: underline;
-  }
+.supplierlist,
+.ceremonylist,
+.breakfastlist,
+.receptionlist {
+  font-size: 25px;
+  text-decoration: underline;
+}
 
-  input {
-    width: 300px;
-    font-size: 35px;
-    box-sizing: border-box;
-    border: #a6206a;
-  }
-  input[type="button"] {
-    width: 100px;
-    border-radius: 10em;
-    font-size: small;
-  }
+input {
+  width: 300px;
+  font-size: 35px;
+  box-sizing: border-box;
+  border: #a6206a;
+}
+input[type="button"] {
+  width: 100px;
+  border-radius: 10em;
+  font-size: small;
+}
+
+@media screen and (min-width: 578px) {
+  background-image url: ("weddingimg.jpg");
+
+
 }
